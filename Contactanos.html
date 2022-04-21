@@ -1,0 +1,66 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+</head>
+<style>
+    .Contact{background-color: rgb(35, 149, 197);}
+    input,select{width: 20%;}
+</style>
+<body>
+    <div class="Contact">
+        <h1>Contactanos</h1>
+        <h2>Dejanos tus comentarios o sugerencias</h2>
+        <form action="">
+            <label for="edad">Edad</label>
+            <br>
+            <input type="number" name="edad" id="edad" placeholder="ingresa tu edad" min="18" max="99" required>
+            <br>
+            <label for="Genero">Genero</label>
+            <br>
+            <select name="genero">
+              <option>Masculino</option>
+              <option>Femenino</option>
+              <option>Otros</option>
+            </select>
+            <br>
+            <label for="Producto favorito">Producto del cual quiere opinar</label>
+            <br>
+            <select name="Producto">
+              <option>cafe</option>
+              <option>Bebidas Frias</option>
+              <option>Té e infusiones</option>
+            </select>
+            <br>
+            <label for="Email">Correo Electronico</label>
+            <br>
+            <input type="email" name="Email" id="Email" placeholder="Ingresa tu email" required autofocus>
+            <br>
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" name="nombre" id="nombre" placeholder="ingresa tu primer nombre" required>
+            <br>
+            <label for="Apellido">Apellido</label>
+            <br>
+            <input type="text" name="Apellido" id="Apellido" placeholder="ingresa tu primer Apellido" required>
+            <br>
+            <label for="Telefono">Telefono</label>
+            <br>
+            <input type="tel" name="Telefono" id="Telefono" placeholder="Ingrese su numero de telefono">
+            <br>
+            <label for="direccion">Direccion</label>
+            <br>
+            <input type="text" name="direccion" id="direccion" placeholder="ingresa tu direccion" required> 
+            <br>
+            <label for="comentarios">Comentarios o sugerencias</label>
+            <br>
+            <textarea name="comentarios" id="coemntarios" cols="80" rows="10" maxlength="500" placeholder="Ingrese sus comentario en 500 caracteres maximo"></textarea>
+            <br>
+            <input type="submit" value="Enviar"> <input type="reset" value="Borrar información">
+        </form>
+    </div>
+
+</body>
+</html>
